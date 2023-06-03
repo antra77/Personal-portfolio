@@ -1,0 +1,153 @@
+.proj-head {
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    width: 300px;
+    height: 100px;
+    text-align: center;
+    padding: 25px;
+    border-radius: 50px;
+  background: linear-gradient(315deg, #cacaca, #f0f0f0);
+  box-shadow: -20px -20px 60px #bebebe,
+    20px 20px 60px #ffffff;
+}
+
+.card1 {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    width: 300px;
+    height: 300px;
+    background: white;
+    padding: .4em;
+    border-radius: 30px;
+    background: linear-gradient(315deg, #cacaca, #f0f0f0);
+    box-shadow: -20px -20px 60px #bebebe,
+        20px 20px 60px #ffffff;
+}
+
+.card-image1 {
+    background-image: url(../assets/p1.png);
+    background-size: contain;
+   width: 100%;
+    height: 60%;
+    border-radius: 30px;
+    box-shadow: -20px -20px 60px #bebebe,
+        20px 20px 60px #ffffff;
+}
+.card2 {
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    width: 300px;
+    height: 300px;
+    background: white;
+    padding: .4em;
+    border-radius: 30px;
+    background: linear-gradient(315deg, #cacaca, #f0f0f0);
+    box-shadow: -20px -20px 60px #bebebe,
+        20px 20px 60px #ffffff;
+
+}
+
+.card-image2 {
+    background-image: url(../assets/p2.png);
+    background-size: contain;
+    width: 100%;
+    height: 60%;
+    border-radius: 30px;
+    box-shadow: -20px -20px 60px #bebebe,
+        20px 20px 60px #ffffff;
+
+}
+
+.card3 {
+    position: absolute;
+    top: 30%;
+    right: 30%;
+    width: 300px;
+    height: 300px;
+    background: white;
+    padding: .4em;
+    border-radius: 30px;
+    background: linear-gradient(315deg, #cacaca, #f0f0f0);
+    box-shadow: -20px -20px 60px #bebebe,
+        20px 20px 60px #ffffff;
+
+}
+
+.card-image3 {
+    background-image: url(../assets/p3.png);
+    background-size: contain;
+    width: 100%;
+    height: 60%;
+    border-radius: 30px;
+    box-shadow: -20px -20px 60px #bebebe,
+        20px 20px 60px #ffffff;
+
+}
+
+.card4 {
+    position: absolute;
+    top: 30%;
+    right: 10%;
+    width: 300px;
+    height: 300px;
+    background: white;
+    padding: .4em;
+    border-radius: 30px;
+    background: linear-gradient(315deg, #cacaca, #f0f0f0);
+    box-shadow: -20px -20px 60px #bebebe,
+        20px 20px 60px #ffffff;
+
+}
+
+.card-image4 {
+    background-image: url(../assets/p4.png);
+    background-size: contain;
+    width: 100%;
+    height: 60%;
+    border-radius: 30px;
+    box-shadow: -20px -20px 60px #bebebe,
+        20px 20px 60px #ffffff;
+
+}
+
+.card-image1:hover,
+.card-image2:hover,
+.card-image3:hover,
+.card-image4:hover {
+    transform: scale(0.98);
+}
+
+.category {
+    text-transform: uppercase;
+    font-size: 0.7em;
+    font-weight: 600;
+    color: rgb(63, 121, 230);
+    padding: 10px 7px 0;
+}
+
+.category:hover {
+    cursor: pointer;
+}
+
+.heading {
+    font-weight: 600;
+    color: rgb(88, 87, 87);
+    padding: 7px;
+}
+
+.heading:hover {
+    cursor: pointer;
+}
+
+.site {
+    color: gray;
+    font-weight: 400;
+    font-size: 11px;
+    padding-top: 20px;
+}
+
+
+

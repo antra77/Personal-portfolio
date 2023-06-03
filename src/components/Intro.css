@@ -1,0 +1,66 @@
+body {
+    background-image: url(../assets/heroImg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.intro-text {
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    width: 500px;
+    height: 100px;
+    border-radius: 50px;
+    background: linear-gradient(225deg, #cacaca, #f0f0f0);
+    box-shadow: -20px 20px 60px #bcbcbc,
+        20px -20px 60px #ffffff;
+}
+
+.intro-text h1 {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    color: rgb(160, 154, 154);
+}
+
+.intro-content {
+
+    position: absolute;
+    top: 45%;
+    left: 20%;
+    right: 20%;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.btn2 {
+    position: absolute;
+    top: 60%;
+    left: 43%;
+    margin-top: 20px;
+    border-radius: 0.5rem;
+    background-color: #e0e0e0;
+    border-radius: 50px;
+    box-shadow: inset 4px 4px 10px #bcbcbc, inset -4px -4px 10px #ffffff;
+    color: #898686;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 15px 40px;
+    transition: all 0.2s ease-in-out;
+    border: 2px solid rgb(206, 206, 206)
+    
+}
+
+.btn2 :hover {
+    box-shadow: inset 5px 5px 10px #bcbcbc, inset -5px -5px 10px #ffffff,
+        2px 2px 5px #bcbcbc, -2px -2px 5px #ffffff;
+}
+
+.btn2 :focus {
+    outline: none;
+  box-shadow: inset 5px 5px 10px #bcbcbc, inset -5px -5px 10px #ffffff, 5px 5px 10px #bcbcbc, -5px -5px 10px #ffffff;
+}
+
+
+

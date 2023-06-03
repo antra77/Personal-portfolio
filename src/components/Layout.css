@@ -1,0 +1,120 @@
+.head {
+  position: absolute;
+  top: 20%;
+  left: 40%;
+  border-radius: 20px;
+  width: 300px;
+  height: 100px;
+  text-align: center;
+  padding: 25px;
+  border-radius: 50px;
+  background: linear-gradient(315deg, #cacaca, #f0f0f0);
+  box-shadow: -20px -20px 60px #bebebe,
+    20px 20px 60px #ffffff;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Lato:300");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato";
+  font-size: 16px;
+}
+
+.wrap-circles {
+  display: flex;
+  min-height: 100vh;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 1rem;
+}
+
+.circle {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  margin: 0.5rem;
+  border-radius: 50%;
+  background: #FFCDB2;
+  overflow: hidden;
+  margin-right: 20px;
+}
+
+.circle.per-95 {
+  background-image: conic-gradient(#e2d5d8 95%, #ebb69a 0);
+
+}
+
+.circle.per-90 {
+  background-image: conic-gradient(#e2d5d8 90%, #ebb69a 0);
+}
+
+.circle.per-75 {
+  background-image: conic-gradient(#e2d5d8 75%, #ebb69a 0);
+}
+
+.circle.per-50 {
+  background-image: conic-gradient(#e2d5d8 50%, #ebb69a 0);
+}
+
+.circle.per-70 {
+  background-image: conic-gradient(#e2d5d8 70%, #ebb69a 0);
+}
+
+.circle .inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 115px;
+  height: 115px;
+  background: white;
+  border-radius: 50%;
+  font-size: 1.85em;
+  font-weight: 300;
+  color: rgba(136, 132, 132, 0.75);
+  border-radius: 60px;
+  background: linear-gradient(145deg, #cacaca, #f0f0f0);
+  box-shadow: 20px 20px 60px #bebebe,
+    -20px -20px 60px #ffffff;
+}
+
+.t1 {
+  position: absolute;
+  top: 60%;
+  left: 26%;
+  text-align: center;
+}
+
+.t2 {
+  position: absolute;
+  top: 60%;
+  left: 37%;
+}
+
+.t3 {
+  position: absolute;
+  top: 60%;
+  left: 46%;
+}
+
+.t4 {
+  position: absolute;
+  top: 60%;
+  left: 58%;
+}
+
+.t5 {
+  position: absolute;
+  top: 60%;
+  left: 68%;
+}

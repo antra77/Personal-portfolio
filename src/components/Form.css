@@ -1,0 +1,112 @@
+.form-title {
+    position: absolute;
+    font-size: 30px;
+    top: 15%;
+    right: 35%;
+   
+}
+
+.social-buttons {
+    position: absolute;
+    top: 35%;
+    left: 20%;
+}
+
+.social-buttons li {
+    padding: 30px;
+}
+
+.button {
+    width: 80px;
+    height: 80px;
+
+}
+
+.button ::before {
+    box-shadow: 0;
+    border-radius: 84.5px;
+    background: #fff;
+    margin-left: -36px;
+    margin-top: -36px;
+    opacity: 0.2;
+    height: 72px;
+    width: 72px;
+    left: 50%;
+    top: 50%;
+}
+
+.button {
+    transition: all 300ms cubic-bezier(0.23, 1, 0.32, 1);
+    box-shadow: 0 15px 25px -4px rgba(0, 0, 0, 0.5), inset 0 -3px 4px -1px rgba(0, 0, 0, 0.2), 0 -10px 15px -1px rgba(255, 255, 255, 0.6), inset 0 3px 4px -1px rgba(255, 255, 255, 0.2), inset 0 0 5px 1px rgba(255, 255, 255, 0.8), inset 0 20px 30px 0 rgba(255, 255, 255, 0.2);
+    border-radius: 68.8px;
+    background: #eaeaea;
+    margin-left: -34.4px;
+    margin-top: -34.4px;
+    display: block;
+    height: 68.8px;
+    width: 68.8px;
+    left: 50%;
+    top: 50%;
+}
+
+.input1, .input2 , #input3{
+    position: absolute;
+    right: 30%;
+    border: none;
+    border-radius: 15px;
+    padding: 15px;
+    background-color: #e8e8e8;
+    box-shadow: 6px 6px 12px #ffffff,
+        -6px -6px 12px #c5c5c5;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.input1:focus , .input2:focus, #input3:focus{
+    outline-color: white;
+    place-content: "Enter your message!";
+}
+
+.input1 {
+    top: 30%;
+    width: 400px;
+}
+
+.input2 {
+    top: 40%;
+    width: 400px;
+}
+
+#input3 {
+    top: 50%;
+    width: 400px;
+    height: 200px;
+}
+
+.form-btn {
+    position: absolute;
+    top: 75%;
+    right: 30%;
+    margin: 1rem 0.2rem;
+    border-radius: 0.5rem;
+    background-color: #e0e0e0;
+    border-radius: 50px;
+    box-shadow: inset 4px 4px 10px #bcbcbc, inset -4px -4px 10px #ffffff;
+    color: #4d4d4d;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 15px 40px;
+    transition: all 0.2s ease-in-out;
+    border: 2px solid rgb(206, 206, 206)
+
+}
+
+.form-btn :hover {
+    box-shadow: inset 5px 5px 10px #bcbcbc, inset -5px -5px 10px #ffffff,
+        2px 2px 5px #bcbcbc, -2px -2px 5px #ffffff;
+}
+
+.form-btn :focus {
+    outline: none;
+  box-shadow: inset 5px 5px 10px #bcbcbc, inset -5px -5px 10px #ffffff, 5px 5px 10px #bcbcbc, -5px -5px 10px #ffffff;
+}
